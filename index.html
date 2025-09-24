@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-[#1F242D] text-gray-900">
+
+  <header class="container mx-auto px-4 py-6">
+    <nav class="flex items-center justify-between">
+      <img src="img/Link → Portfolio (3).png" alt="Logo" class="w-28">
+      <ul class="hidden md:flex space-x-8 font-medium">
+        <li><a href="#home" class="hover:text-blue-500">Home</a></li>
+        <li><a href="#about" class="hover:text-blue-500">About</a></li>
+        <li><a href="#services" class="hover:text-blue-500">Services</a></li>
+        <li><a href="#portfolio" class="hover:text-blue-500">Portfolio</a></li>
+        <li><a href="#contact" class="hover:text-blue-500">Contact</a></li>
+      </ul>
+      <button id="burger" class="md:hidden ">
+        Portfolio
+      </button>
+    </nav>
+<div class="papa flex justify-between">
+    <div class="flex flex-col md:flex-row items-center mt-10">
+      <div class="text-center md:text-left space-y-4">
+        <h2 class="text-lg">Hello It's Me</h2>
+        <h1 class="text-4xl font-bold">John Kendric</h1>
+        <h2 class="text-xl">And I'm a <span class="text-blue-500">Frontend Developer</span></h2>
+        <p class="max-w-md text-gray-600">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae nulla libero labore exercitationem, iste iusto unde eos.
+        </p>
+        <div class="flex justify-center md:justify-start space-x-4">
+          <img src="img/Link (9).png" alt="" class="w-6">
+          <img src="img/Link (10).png" alt="" class="w-6">
+          <img src="img/Link (11).png" alt="" class="w-6">
+          <img src="img/Link (12).png" alt="" class="w-6">
+        </div>
+        <button class="bg-blue-500 text-white px-6 py-2 rounded-lg shadow hover:bg-blue-600 transition">
+          Download CV
+        </button>
+      </div>
+      <div class="mt-8 md:mt-0 md:ml-12">
+        <img src="img/tai.png" alt="Profile" class="max-w-xs md:max-w-sm">
+      </div>
+    </div>
+    </div>
+  </header>
+  <section id="services" class="container mx-auto px-4 py-12">w
+    <h2 class="text-3xl font-bold text-center mb-8">
+      Our <span class="text-blue-500">Services</span>
+    </h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-6 rounded-xl shadow text-center">
+        <img src="img/Vector (7).png" alt="" class="mx-auto mb-4 w-12">
+        <h3 class="text-lg font-semibold">Web Development</h3>
+        <p class="text-gray-600 mt-2">
+          Lorem ipsum dolor sit amet consectetur recusandae voluptas et voluptatibus.
+        </p>
+        <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Read More</button>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow text-center">
+        <img src="img/Vector (8).png" alt="" class="mx-auto mb-4 w-12">
+        <h3 class="text-lg font-semibold">Web Development</h3>
+        <p class="text-gray-600 mt-2">
+          Lorem ipsum dolor sit amet consectetur recusandae voluptas et voluptatibus.
+        </p>
+        <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Read More</button>
+      </div>
+      <div class="bg-white p-6 rounded-xl shadow text-center">
+        <img src="img/Vector (9).png" alt="" class="mx-auto mb-4 w-12">
+        <h3 class="text-lg font-semibold">Web Development</h3>
+        <p class="text-gray-600 mt-2">
+          Lorem ipsum dolor sit amet consectetur recusandae voluptas et voluptatibus.
+        </p>
+        <button class="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Read More</button>
+      </div>
+    </div>
+  </section>
+    <section id="portfolio" class="container mx-auto px-4 py-12">
+    <h3 class="text-3xl font-bold text-center mb-8">Latest Project</h3>
+    <div class="grid flex justify-between md:grid-cols-2 gap-6">
+      <div class="grid grid-cols-3 gap-4 flex">
+        <img src="img/lee-campbell-106610-unsplash.jpg.png" alt="" class="rounded-lg shadow">
+        <img src="img/lee-campbell-106610-unsplash.jpg.png" alt="" class="rounded-lg shadow">
+        <img src="img/lee-campbell-106610-unsplash.jpg.png" alt="" class="rounded-lg shadow">
+      </div>
+      <div class="grid grid-cols-3 gap-4 flex">
+        <img src="img/lee-campbell-106610-unsplash.jpg.png" alt="" class="rounded-lg shadow">
+        <img src="img/lee-campbell-106610-unsplash.jpg.png" alt="" class="rounded-lg shadow">
+        <img src="img/lee-campbell-106610-unsplash.jpg.png" alt="" class="rounded-lg shadow">
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container mx-auto px-4 py-12">
+    <h3 class="text-3xl font-bold text-center mb-8">Contact Me!</h3>
+    <form class="max-w-lg mx-auto space-y-4">
+      <div class="grid md:grid-cols-2 gap-4">
+        <input type="text" placeholder="Your Name" class="w-full p-3 border rounded">
+        <input type="email" placeholder="Your Email" class="w-full p-3 border rounded">
+      </div>
+      <input type="text" placeholder="Subject" class="w-full p-3 border rounded">
+      <textarea placeholder="Message" rows="4" class="w-full p-3 border rounded"></textarea>
+      <button class="w-full bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="bg-gray-900 text-white py-6">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <p>Copyright © 2023 by Codehal | All Rights Reserved.</p>
+      <img src="img/Link (13).png" alt="" class="w-6">
+    </div>
+  </footer>
+
+</body>
+</html>
